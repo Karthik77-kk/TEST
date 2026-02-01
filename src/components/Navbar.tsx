@@ -25,7 +25,7 @@ export function Navbar() {
         item.href.replace("#", "")
       );
       
-      for (const section of sections.reverse()) {
+      for (const section of [...sections].reverse()) {
         const element = document.getElementById(section);
         if (element) {
           const rect = element.getBoundingClientRect();
