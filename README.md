@@ -2,6 +2,8 @@
 
 A production-ready, visually stunning single-page website for a fictional ultra-premium travel brand. Built with Next.js 16+, TypeScript, Tailwind CSS 4, and Framer Motion.
 
+**🌐 Live Demo:** [View on GitHub Pages](https://karthik77-kk.github.io/TEST/)
+
 ## 🌟 Features
 
 - **Futuristic Luxury Design**: Dark mode, glassmorphism, neon accents, animated gradients
@@ -81,6 +83,28 @@ All images are sourced from [Unsplash](https://unsplash.com) and are used for de
 ## 📧 Contact Form
 
 The contact form sends inquiries to: `iammr2002vip@gmail.com`
+
+## 🚀 Deployment
+
+This project is configured to automatically deploy to GitHub Pages. The deployment is triggered on every push to the `main` branch.
+
+### GitHub Pages Setup
+
+1. Go to your repository's Settings → Pages
+2. Under "Build and deployment", select "GitHub Actions" as the source
+3. Push to the `main` branch to trigger the deployment
+4. Your site will be available at: `https://<username>.github.io/<repository-name>/`
+
+### Manual Deployment
+
+You can also build and export the static site manually:
+
+```bash
+# Build the static site
+npm run build
+
+# The static files will be in the ./out directory
+```
 
 ## 📄 License
 
